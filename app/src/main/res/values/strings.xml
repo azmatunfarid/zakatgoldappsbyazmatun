@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Zakat Gold Application</string>
+
+    <string name="about_zakatgold">
+        <html>
+            <body style="text-align:justify; color:#000000;"> Zakat, a fundamental pillar of Islam, extends beyond financial contributions and encompasses various forms of wealth, including gold.
+                Zakat on gold is obligatory for eligible Muslims who possess a specific amount of gold wealth. The aim is to promote social justice and provide for those in need.
+            </body>
+        </html>
+    </string>
+    <string name="share">" "</string>
+</resources>

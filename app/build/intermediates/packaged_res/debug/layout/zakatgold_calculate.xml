@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZakatgoldCalculateActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
+    />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="411dp"
+        android:layout_height="661dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="59dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Space
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/title_zakatgold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:fontFamily="@font/roboto_black"
+                    android:text="Calculator"
+                    android:textSize="30sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/weightofgold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_black"
+                    android:text="Weight of Gold (Gram)"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="56dp"
+                    android:layout_height="42dp" />
+
+                <EditText
+                    android:id="@+id/input_weightofgold"
+                    android:layout_width="167dp"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:hint="Weight (g)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="17dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/typeofgold"
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_black"
+                    android:text="Type of Gold"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="114dp"
+                    android:layout_height="87dp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radioButton_wear"
+                        android:layout_width="96dp"
+                        android:layout_height="48dp"
+                        android:fontFamily="@font/roboto_black"
+                        android:text="Wear"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_keep"
+                        android:layout_width="96dp"
+                        android:layout_height="48dp"
+                        android:fontFamily="@font/roboto_black"
+                        android:text="Keep"
+                        android:textSize="16sp" />
+                </RadioGroup>
+
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="17dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/currentgoldvalue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_black"
+                    android:text="Current Gold Value / Gram"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/input_currentgoldvalue"
+                    android:layout_width="167dp"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:hint="Weight (g)"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="17dp" />
+
+            <Button
+                android:id="@+id/calculate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_black"
+                android:text="Calculate"
+                android:textColorHighlight="#CC2589"
+                android:textColorLink="#DA2055" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="17dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/rm"
+                    android:layout_width="86dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_black"
+                    android:text=" Total: RM"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/text_output"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="17dp" />
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="71dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/CaliforniaGold">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp">
+
+                        <Space
+                            android:layout_width="109dp"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:id="@+id/home_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="Home"
+                            android:src="@drawable/icons8_home_50" />
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:id="@+id/calculator_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="Calculator"
+                            android:src="@drawable/icons8_calculator_50" />
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:id="@+id/information_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="Information"
+                            android:keyboardNavigationCluster="false"
+                            android:src="@drawable/icons8_about_50" />
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                </LinearLayout>
+
+            </TableRow>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+        <color name="ClassicGold">#FFD700</color>
+        <color name="DarkerGold">#FFB90F</color>
+        <color name="LighterGold">#FFC125</color>
+        <color name="LightGold">#EAC117</color>
+        <color name="Goldenrod">#DAA520</color>
+        <color name="DeepSaffron">#FFCC00</color>
+        <color name="CaliforniaGold">#FDB515</color>
+        <color name="GoldenBrown">#996515</color>
+        <color name="red">#BE1D1D</color>
+        <color name="white">#FFFFFF</color>
+        <color name="black">#000000</color>
+        <color name="blue">#3F51B5</color>
+
+    </resources>

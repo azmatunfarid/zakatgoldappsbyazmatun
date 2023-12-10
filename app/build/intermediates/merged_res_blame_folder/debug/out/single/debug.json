@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-mdpi_home_foreground.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-mdpi\\home_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-anydpi-v26_home_round.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-anydpi-v26\\home_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\drawable_icons8_calculator_50.png.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\drawable\\icons8_calculator_50.png"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\drawable_icons8_home_50.png.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\drawable\\icons8_home_50.png"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xxhdpi_home_round.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xxhdpi\\home_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\font_roboto.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\font\\roboto.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\drawable_dev_pro.jpg.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\drawable\\dev_pro.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xhdpi_home_round.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xhdpi\\home_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\layout_zakatgold_calculate.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\layout\\zakatgold_calculate.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xxhdpi_home_foreground.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xxhdpi\\home_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\drawable_icons8_about_50.png.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\drawable\\icons8_about_50.png"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xhdpi_home_foreground.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xhdpi\\home_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-mdpi_home_round.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-mdpi\\home_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-anydpi-v26_home.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-anydpi-v26\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-hdpi_home_foreground.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-hdpi\\home_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xxxhdpi_home_foreground.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xxxhdpi\\home_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\drawable_home_background.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\drawable\\home_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xxhdpi_home.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xxhdpi\\home.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\font_roboto_black.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\font\\roboto_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\drawable_icons8_share_50.png.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\drawable\\icons8_share_50.png"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xhdpi_home.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xhdpi\\home.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-hdpi_home_round.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-hdpi\\home_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\layout_information_page.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\layout\\information_page.xml"
+    },
+    {
+        "merged": "com.example.zakatgoldapplication.app-merged_res-31:/layout_information_page.xml.flat",
+        "source": "com.example.zakatgoldapplication.app-main-33:/layout/information_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xxxhdpi_home_round.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xxxhdpi\\home_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-xxxhdpi_home.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-xxxhdpi\\home.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\drawable-200dpi_whatsapp_image_2023_12_08_at_21_27_21_30b7e36e.jpg.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\drawable-200dpi\\whatsapp_image_2023_12_08_at_21_27_21_30b7e36e.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\drawable_home_foreground.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\drawable\\home_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-mdpi_home.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-mdpi\\home.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\drawable_icons8_zakat_32.png.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\drawable\\icons8_zakat_32.png"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\mipmap-hdpi_home.webp.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\mipmap-hdpi\\home.webp"
+    },
+    {
+        "merged": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-merged_res-31:\\drawable_icons8_zakat_64.png.flat",
+        "source": "C:\\Users\\nuraz\\.gradle\\daemon\\8.0\\com.example.zakatgoldapplication.app-main-33:\\drawable\\icons8_zakat_64.png"
+    }
+]

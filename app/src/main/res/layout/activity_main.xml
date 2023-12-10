@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="409dp"
+        android:layout_height="661dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="67dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Space
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/zakatgold_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_black"
+                    android:text="Zakat Gold"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/about_zakatgold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_black"
+                android:text="About Zakat Gold"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/explain_zakatgold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="@string/about_zakatgold"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/calculationof_zakatgold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_black"
+                android:text="Calculation of Zakat Gold"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/explain_calculation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Total value of Gold: weight in gram * value"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/explain_calculation1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Total gold value that payable: (weight in gram - X gram) * value"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/explain_calculation2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Total Zakat: (Total gold value that payable * 2.5%)"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/explain_calculation3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The 'X gram' refers to:"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/explain_calculation4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keep = 85 gram"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/explain_calculation5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wear = 200 gram"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="109dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/CaliforniaGold">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp">
+
+                        <Space
+                            android:layout_width="116dp"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:id="@+id/home_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="Home"
+                            android:src="@drawable/icons8_home_50" />
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:id="@+id/calculator_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="Calculator"
+                            android:src="@drawable/icons8_calculator_50" />
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:id="@+id/information_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="Information"
+                            android:keyboardNavigationCluster="false"
+                            android:src="@drawable/icons8_about_50" />
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                </LinearLayout>
+
+            </TableRow>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
