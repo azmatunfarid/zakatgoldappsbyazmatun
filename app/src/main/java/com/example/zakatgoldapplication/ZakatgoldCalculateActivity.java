@@ -213,7 +213,7 @@ public class ZakatgoldCalculateActivity extends AppCompatActivity implements Vie
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         Intent sendIntent = new Intent();
         sendIntent.setAction(Intent.ACTION_SEND);
-        sendIntent.putExtra(Intent.EXTRA_TEXT, "GitHub: Zakat Gold Application by Azmatun - https://github.com/azmatunfarid/zakatgoldbyazmatun");
+        sendIntent.putExtra(Intent.EXTRA_TEXT, "GitHub: Zakat Gold Application by Azmatun - https://github.com/azmatunfarid/zakatgoldappsbyazmatun");
 
         sendIntent.setType("text/plain");
 
