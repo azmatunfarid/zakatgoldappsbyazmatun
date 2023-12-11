@@ -94,10 +94,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         Intent sendIntent = new Intent();
         sendIntent.setAction(Intent.ACTION_SEND);
-        sendIntent.putExtra(Intent.EXTRA_TEXT, "https://github.com/azmatunfarid/zakatgoldappsbyazmatun");
+        sendIntent.putExtra(Intent.EXTRA_TEXT, "GitHub: Zakat Gold Application by Azmatun - https://github.com/azmatunfarid/zakatgoldappsbyazmatun");
 
         sendIntent.setType("text/plain");
-        sendIntent.putExtra(Intent.EXTRA_TEXT, "GitHub: Zakat Gold Application by Azmatun");
 
         Intent shareIntent = Intent.createChooser(sendIntent, null);
         startActivity(shareIntent);
