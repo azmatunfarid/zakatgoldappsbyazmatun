@@ -98,7 +98,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         sendIntent.setType("text/plain");
 
-        Intent shareIntent = Intent.createChooser(sendIntent, null);
+        String title = "Share via";
+        Intent shareIntent = Intent.createChooser(sendIntent, title);
         startActivity(shareIntent);
         return super.onOptionsItemSelected(item);
     }
