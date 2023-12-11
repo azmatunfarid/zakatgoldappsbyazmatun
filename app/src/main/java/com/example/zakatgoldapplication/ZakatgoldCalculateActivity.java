@@ -148,6 +148,9 @@ public class ZakatgoldCalculateActivity extends AppCompatActivity implements Vie
         double currentGoldValue = Double.parseDouble(currentGoldValueStr);
         boolean isWearingGold = radioButton_wear.isChecked();
 
+        // Calculate total value of the gold
+        // double totalGoldValue = weightOfGold * currentGoldValue;
+
         // Calculate total gold value that is zakat payable
         double totalGoldValueZakatPayable;
         if (isWearingGold) {
