@@ -154,9 +154,9 @@ public class ZakatgoldCalculateActivity extends AppCompatActivity implements Vie
         // Calculate total gold value that is zakat payable
         double totalGoldValueZakatPayable;
         if (isWearingGold) {
-            totalGoldValueZakatPayable = (weightOfGold - 200) * currentGoldValue;
+            totalGoldValueZakatPayable = Math.max(0, (weightOfGold - 200) * currentGoldValue);
         } else {
-            totalGoldValueZakatPayable = (weightOfGold - 85) * currentGoldValue;
+            totalGoldValueZakatPayable = Math.max(0, (weightOfGold - 85) * currentGoldValue);
         }
 
         // Display results
