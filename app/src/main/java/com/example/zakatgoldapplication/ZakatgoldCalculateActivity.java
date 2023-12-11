@@ -31,7 +31,9 @@ public class ZakatgoldCalculateActivity extends AppCompatActivity implements Vie
     TextView typeofgold;
     TextView currentgoldvalue;
     TextView rm;
+    TextView payable;
     TextView text_output;
+    TextView text_output2;
     RadioButton radioButton_wear;
     RadioButton radioButton_keep;
     Button calculate;
@@ -55,7 +57,9 @@ public class ZakatgoldCalculateActivity extends AppCompatActivity implements Vie
         typeofgold = findViewById(R.id.typeofgold);
         currentgoldvalue = findViewById(R.id.currentgoldvalue);
         rm = findViewById(R.id.rm);
+        payable = findViewById(R.id.payable);
         text_output = findViewById(R.id.text_output);
+        text_output2 = findViewById(R.id.text_output2);
         radioButton_wear = findViewById(R.id.radioButton_wear);
         radioButton_keep = findViewById(R.id.radioButton_keep);
         calculate = findViewById(R.id.calculate);
@@ -140,12 +144,9 @@ public class ZakatgoldCalculateActivity extends AppCompatActivity implements Vie
         }
 
         // Retrieve user input
-        double weightOfGold = Double.parseDouble(input_weightofgold.getText().toString());
-        double currentGoldValue = Double.parseDouble(input_currentgoldvalue.getText().toString());
+        double weightOfGold = Double.parseDouble(weightOfGoldStr);
+        double currentGoldValue = Double.parseDouble(currentGoldValueStr);
         boolean isWearingGold = radioButton_wear.isChecked();
-
-        // Calculate total value of the gold
-        //double totalGoldValue = weightOfGold * currentGoldValue;
 
         // Calculate total gold value that is zakat payable
         double totalGoldValueZakatPayable;
@@ -155,11 +156,15 @@ public class ZakatgoldCalculateActivity extends AppCompatActivity implements Vie
             totalGoldValueZakatPayable = (weightOfGold - 85) * currentGoldValue;
         }
 
-        // Calculate total zakat
-        double totalZakat = Math.max(0, totalGoldValueZakatPayable * 0.025 );
-
         // Display results
-        rm.setText("Total: RM");
+        payable.setText("Zakat Payable: RM");
+        text_output2.setText(String.valueOf(totalGoldValueZakatPayable));
+
+        // Calculate total zakat
+        double totalZakat = Math.max(0, totalGoldValueZakatPayable * 0.025);
+
+        // Additional output for total Zakat
+        rm.setText("Total Zakat: RM");
         text_output.setText(String.valueOf(totalZakat));
     }
 
@@ -208,13 +213,14 @@ public class ZakatgoldCalculateActivity extends AppCompatActivity implements Vie
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         Intent sendIntent = new Intent();
         sendIntent.setAction(Intent.ACTION_SEND);
-        sendIntent.putExtra(Intent.EXTRA_TEXT, "https://github.com/azmatunfarid/zakatgoldbyazmatun");
+        sendIntent.putExtra(Intent.EXTRA_TEXT, "GitHub: Zakat Gold Application by Azmatun - https://github.com/azmatunfarid/zakatgoldbyazmatun");
 
         sendIntent.setType("text/plain");
-        sendIntent.putExtra(Intent.EXTRA_TEXT, "GitHub: Zakat Gold Application by Azmatun");
 
-        Intent shareIntent = Intent.createChooser(sendIntent, null);
+        String title = "Share via";
+        Intent shareIntent = Intent.createChooser(sendIntent, title);
         startActivity(shareIntent);
+
         return super.onOptionsItemSelected(item);
     }
 
